@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .layout {
+    max-width: 88.75rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*  Hero Section */
+  .banner-hero {
+    background-image: url("../public/bgHero.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+}
